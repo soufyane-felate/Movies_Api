@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
 
         String url = "https://run.mocky.io/v3/d9293f76-e064-4731-ba9f-dcef017cca1a";
+        //String url = "https://run.mocky.io/v3/d9293f76-e064-4731-ba9f-dcef017cca1a";
 
         JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(
                 Request.Method.GET,
